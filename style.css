@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0e13;
+  color: white;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+#container {
+  width: 100%;
+  margin: 56px auto 0px;
+  padding: 57px 54px 67px 54px;
+  border-radius: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  align-items: flex-start;
+}
+
+#topo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#topo img {
+  width: 60px;
+  height: 60px;
+}
+#topo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+#topo2 button {
+  width: 25px;
+  height: 25px;
+
+  position: absolute;
+  /* right: 45px;
+  bottom: 3.5px; */
+
+  z-index: 1; 
+  /* left: 0; */
+  left: 80px;
+  top: 75%;
+  transform: translateY(-50%);
+  border: none;
+  background: url(./assets/didi.png) no-repeat center;
+  bottom: 3.5px;
+}
